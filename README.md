@@ -4,7 +4,7 @@ Machine Learning based salary prediction model, based on chosen multivariate att
 
 Dataset used is obtained from stackoverflow survey data
 
-The model is also deployed as a website
+The model is also deployed as a website: https://salary-prediction-1061.onrender.com
 
 Screenshots:
 ![4](https://user-images.githubusercontent.com/72409908/229579232-4a1712e0-1d3b-4747-b820-cce8b65222db.png)
