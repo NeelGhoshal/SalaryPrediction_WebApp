@@ -31,7 +31,7 @@ def clean_education(x):
 #load data
 @st.cache_data  #statement to cache the below code so as to not rerun the entire script at every reload and just cache it once and allow it to be available indefinitely
 def load_data():
-    df = df = pd.read_csv("Stackoverflow_data.csv")
+    df = df = pd.read_csv("Stackoverflow_data.csv", usecols=["Country", "EdLevel", "YearsCodePro", "Employment", "ConvertedCompYearly"])
     df = df[["Country", "EdLevel", "YearsCodePro", "Employment", "ConvertedCompYearly"]]
     # df = df.rename({"ConvertedCompYearly": "Salary"}, axis=1)
     df = df[df["ConvertedCompYearly"].notnull()]
